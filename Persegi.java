@@ -6,10 +6,10 @@ public class Persegi extends BangunDatar {
     }
 
     public float Luas() {
-        return this.sisi = this.sisi;
+        return (float) (sisi*sisi);
     }
 
     public float keliling() {
-        return this.sisi = 4;
+        return (float) (4*sisi);
     }
 }

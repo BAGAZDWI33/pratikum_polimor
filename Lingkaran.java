@@ -5,6 +5,9 @@ public class Lingkaran extends BangunDatar{
         this.r = r;
     }
     public  float Luas(){
-        return(float) (Math.PI);
+        return(float) (Math.PI*r*r);
+    }
+    public float keliling(){
+        return (float) (2*Math.PI*r);
     }
 }

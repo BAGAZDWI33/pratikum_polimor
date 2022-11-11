@@ -7,7 +7,10 @@ public class Segitiga extends BangunDatar{
         this.tinggi = tinggi;
     }
     public float Luas(){
-        return this.alas = this.tinggi;
+        return  (float) (0.5*alas*tinggi);
+    }
+    public float keliling(){
+        return (float) (3*alas);
     }
 }
 
