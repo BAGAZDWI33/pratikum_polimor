@@ -15,11 +15,12 @@ Perbedaan keduanya terletak pada cara membuat polimorfisme. Polimorfisme statis 
 
 ### pada code java saya menggunakan Dynamic Polymorphism (Polimorfisme dinamis) yaitu overriding karena mengacu aturan
 Aturan Method Overriding
-1.Mode akses overriding method harus sama atau lebih luas daripada override method.\n
-Subclass hanya dapat dan boleh meng-override method superclass satu kali saja. Tidak boleh ada lebih dari satu method yang sama pada kelas.\n
-Soal aturan hak akses, setiap subclass tidak boleh mempunyai hak akses method overriding yang ketat dibandingkan dengan hak akses method pada superclass ataupun parent class.\n
+1.Mode akses overriding method harus sama atau lebih luas daripada override method.
+Subclass hanya dapat dan boleh meng-override method superclass satu kali saja. Tidak boleh ada lebih dari satu method yang sama pada kelas.
+Soal aturan hak akses, setiap subclass tidak boleh mempunyai hak akses method overriding yang ketat dibandingkan dengan hak akses method pada superclass ataupun parent class.
 
 code terkait:
+
 
 class BangunDatar {
     float keliling(){
@@ -106,6 +107,7 @@ public class Lingkaran extends BangunDatar{
 }
 
 dengan pembacaan menggunakan main class
+
 
 public class Main {
     public static void main(String[] args) {
